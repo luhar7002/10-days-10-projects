@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="icon" href="graduated.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <form autocomplete="on">
+        <h1 id="topic">Student Form</h1>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" id="name" placeholder="Enter Your Name" autocomplete="name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email" placeholder="Enter e-mail address" autocomplete="email"></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" id="phone" placeholder="Enter Your Number" autocomplete="tel"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <label ><input type="radio" value="Male" name="Gender">Male</label>
+                    <label ><input type="radio" value="Female" name="Gender">Female</label>
+                    <label ><input type="radio" value="Others" name="Gender">Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Course:</td>
+                <td>
+                    <select id="course" autocomplete="off">
+                        <option>Python</option>
+                        <option>Java</option>
+                        <option>FullStack</option>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                        <option>C</option>
+                        <option>C++</option>
+                        <option>SQL</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="submitForm()">Submit</button></td>
+                <td><button type="reset">Reset</button></td>
+            </tr>
+        </table>
+    </form>
+    <form >
+        <h2>Submited Student Details</h2>
+        <div id="StudentList"></div>
+    </form>
+</body>
+</html>
