@@ -1,0 +1,103 @@
+body{
+    background-color: gray;
+    font-family:"Poppins",sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 0;
+}
+form{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    margin: 50px auto;
+}
+input,select{
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+td label{
+    margin-right: 15px;
+    display: inline-block;
+}
+table{
+    width: 100%;
+    padding: 5px;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    padding: 5px;
+    text-align: left;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+input[type="radio"]
+{
+    width: auto;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color:#333;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+div{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+p{
+    padding: 5px;
+}
+strong{
+    padding: 5px;
+}
+#DeleteButton
+{
+    background-color: white;
+    color: black;
+    border-radius: 15%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#DeleteButton:hover{
+    background-color: red;
+}
